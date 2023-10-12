@@ -4,9 +4,11 @@ import me.dio.creditapplicationsystem.entity.Credit
 import me.dio.creditapplicationsystem.repository.CreditRepository
 import me.dio.creditapplicationsystem.service.CreditService
 import me.dio.creditapplicationsystem.service.CustomerService
+import org.springframework.stereotype.Service
 import java.lang.RuntimeException
 import java.util.*
 
+@Service
 class CreditServiceImpl(
     private val creditRepository: CreditRepository,
     private val customerService: CustomerService
