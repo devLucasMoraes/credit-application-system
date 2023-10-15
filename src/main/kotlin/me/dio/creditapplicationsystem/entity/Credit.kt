@@ -7,7 +7,6 @@ import java.time.LocalDate
 import java.util.UUID
 
 @Entity
-@Table(name = "credito")
 data class Credit(
     @Column(nullable = false, unique = true)
     val creditCode: UUID = UUID.randomUUID(),
@@ -19,7 +18,7 @@ data class Credit(
     val dayFirstInstallment: LocalDate,
 
     @Column(nullable = false)
-    val numberOfInstallments: Int,
+    val numberOfInstallments: Int = 0,
 
     @Enumerated
     val status: Status = Status.IN_PROGRESS,

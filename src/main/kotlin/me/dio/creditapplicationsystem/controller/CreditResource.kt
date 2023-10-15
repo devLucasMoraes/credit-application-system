@@ -1,12 +1,11 @@
 package me.dio.creditapplicationsystem.controller
 
-import me.dio.creditapplicationsystem.dto.CreditDTO
-import me.dio.creditapplicationsystem.dto.CreditView
-import me.dio.creditapplicationsystem.dto.CreditViewList
+import me.dio.creditapplicationsystem.dto.request.CreditDTO
+import me.dio.creditapplicationsystem.dto.response.CreditView
+import me.dio.creditapplicationsystem.dto.response.CreditViewList
 import me.dio.creditapplicationsystem.entity.Credit
 import me.dio.creditapplicationsystem.service.CreditService
 import org.springframework.http.HttpStatus
-import org.springframework.http.HttpStatusCode
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.PathVariable

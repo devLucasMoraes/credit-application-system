@@ -1,8 +1,8 @@
 package me.dio.creditapplicationsystem.controller
 
-import me.dio.creditapplicationsystem.dto.CustomerDTO
-import me.dio.creditapplicationsystem.dto.CustomerUpdateDTO
-import me.dio.creditapplicationsystem.dto.CustomerView
+import me.dio.creditapplicationsystem.dto.request.CustomerDTO
+import me.dio.creditapplicationsystem.dto.request.CustomerUpdateDTO
+import me.dio.creditapplicationsystem.dto.response.CustomerView
 import me.dio.creditapplicationsystem.entity.Customer
 import me.dio.creditapplicationsystem.service.CustomerService
 import org.springframework.http.HttpStatus
